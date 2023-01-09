@@ -3,15 +3,15 @@ function getColor(selection)
 	switch(selection){
 		// Add more options here
 		case 'red':
-			colorname.toLocaleLowerCase()
+			colorname.toLocaleLowerCase('red')
 			return true
 			break;
 		case 'green':
-			colorname.toLocaleLowerCase()
+			colorname.toLocaleLowerCase('green')
 			return true
 			break;
 		case 'blue':
-			colorname.toLocaleLowerCase()
+			colorname.toLocaleLowerCase('blue')
 			return true
 			break;
 	    default:
